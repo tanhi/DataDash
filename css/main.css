@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+ }
+
+/*Header*/
+header {
+  background-color: #fff;
+  text-align: center
+}
+
+strong {
+  float: left;
+  padding-top: 20px;
+  padding-left: 5px;
+
+}
+.foto-perfil {
+    display: inline-block;
+    height: 3%;
+    width: 3%;
+    border-radius: 100%;
+    float: left;
+    margin: 10px;
+}
+
+
+.laboratoria {
+    margin: 0 auto;
+    width: 12%;
+
+}
+
+
+
+/*Agregando POINTER a todos los iconos*/
+.fa {
+  cursor: pointer;
+    float: right;
+    padding-top: 10px;
+}
+
+.fa-bars:hover {
+  color: #f7b617;
+    float: right;
+
+}
+
+/*Barra de opciones*/
+
+#menu-desplegable {
+    float:right;
+}
+
+
+
+.desplegables {
+  background-color: /*#4C4743;*/ #ffff;
+  color: #000;
+}
+
+
+.filtro {
+font-size: 1.5em;
+background-color: #f7b617;
+border: 2px solid;
+color: #4C4743;
+border-radius: 3px;
+color: #ffffff;
+font-weight: 300;
+font-size: 1.2em;
+padding: .0.25em;
+}
+
+.filtro:hover {
+ background-color: #f7b617;
+ color: #2B2B2B;
+ font-weight: 400;
+}
+
+.filtro:focus{
+ outline: none;
+}
+
+.filtro option {
+ background-color: #fff;
+ color:#4C4743;
+ font-weight: 300;
+}
+
+.filtro option:focus {
+  outline: none;
+}
+
+
+/*Menu section
+.menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  background-color: rgba(43, 43, 43, 0.98);
+  color: #fff;
+}
+*/
