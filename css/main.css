@@ -21,6 +21,7 @@ strong {
   padding-left: 5px;
     
 }
+
 .foto-perfil {
     display: inline-block;
     height: 3%;
@@ -38,6 +39,19 @@ strong {
 }
 
 
+.box-nav {
+  float:right;
+}
+
+.box-nav ul li {
+    float:right;
+  list-style: none;
+  margin: 0 10px;
+}
+
+.animated-menu {
+    float:right;
+}
 
 /*Agregando POINTER a todos los iconos*/
 .fa {
@@ -54,10 +68,31 @@ strong {
 
 /*Barra de opciones*/
 
-#menu-desplegable {
-    float:right; 
+
+button{
+
+display:inline-flex;
+flex: end;    
+font-size: 1.5em;
+background-color: #f7b617;
+border: 2px solid;  
+color: #4C4743;
+border-radius: 3px;
+color: #ffffff;
+font-weight: 300;
+font-size: 1.2em;
+padding: .0.25em;
 }
 
+button:hover {
+ background-color: #f7b617;
+ color: #2B2B2B;
+ font-weight: 400;
+}
+
+button:focus{
+ outline: none;
+}
 
 
 .desplegables {
@@ -67,6 +102,8 @@ strong {
 
 
 .filtro {
+display:inline-flex;
+flex:start;    
 font-size: 1.5em;
 background-color: #f7b617;
 border: 2px solid;  
@@ -98,20 +135,87 @@ padding: .0.25em;
   outline: none;
 }
 
+/*Barra lateral*/
+
+h5 {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 1.07em; 
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: .7em;    
+}
+
+#lateral {
+    float:right;
+    height: 1107px;
+    width: 279px;
+    background-color:#4C4743;
+    color:#fff;
+    
+
+}
+
+ .daily {
+    margin: 0 auto;
+    height:200px;
+    width: 200px;
+    background: #f7b617;
+}
+
+
 /* Dando estilo a las secciones*/
 
+
 .secciones {
-    float:right;
+    display: inline-table;
     padding-right: 100px;
     margin:20px;
 }
 
 .caja {
     background: #f7b617;
-    display: inline-flex;
+    display: inline-table;
     height: 300px;
     padding: 10px;
     margin: 5px;
     width: 300px;
 }
 
+/* LOG IN*/
+
+
+
+/* Estilo para Log in*/
+.login-logo { /* Logo Log in */
+  display: block;
+  height: 120px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+  color: #2b2b2b;
+}
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.password {
+  margin-top: 15px;
+}
+
+.btn {
+  margin-top: 30px;
+}
