@@ -199,18 +199,6 @@ p {
 
 }
 
-.caja:hover {
-    background-image: url(../assets/images/circle-graphic.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    
-}   
-
-.caja: focus {
-    outline: none;
-}
-
 /* LOG IN*/
 
 
