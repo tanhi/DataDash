@@ -195,8 +195,20 @@ p {
     width: 300px;
    -webkit-box-shadow: 10px 10px 5px 0px rgba(63,66,55,1);
    -moz-box-shadow: 10px 10px 5px 0px rgba(63,66,55,1);
-   box-shadow: 10px 10px 5px 0px rgba(63,66,55,1);
+   box-shadow: 10px 10px 5px 0px rgba(63,66,55,1) transparent;
 
+}
+
+.caja:hover {
+    background-image: url(../assets/images/circle-graphic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    
+}   
+
+.caja: focus {
+    outline: none;
 }
 
 /* LOG IN*/
