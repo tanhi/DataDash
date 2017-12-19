@@ -82,15 +82,16 @@ background-color: #f7b617;
 border: 2px solid;   
 color: #4C4743;
 border-radius: 3px;
-color: #ffffff;
 font-weight: 300;
 font-size: 1.2em;
 padding: .0.25em;
 }
 
 button:hover {
- background-color: #f7b617;
- color: #2B2B2B;
+ background-color: #2B2B2B;
+ color: #f7b617;
+ border: 2px solid;
+ border-radius: 3px;    
  font-weight: 400;
 }
 
@@ -100,7 +101,7 @@ button:focus{
 
 
 .desplegables {
-  background-color: /*#4C4743;*/ #ffff;
+  background-color:#ffff;
   color: #000;
 }
 
@@ -113,15 +114,14 @@ background-color: #f7b617;
 border: 2px solid;  
 color: #4C4743;
 border-radius: 3px;
-color: #ffffff;
 font-weight: 300;
 font-size: 1.2em;
 padding: .0.25em;
 }
 
 .filtro:hover {
- background-color: #f7b617;
- color: #2B2B2B;
+ background-color: #2B2B2B;
+ color: #f7b617;
  font-weight: 400;
 }
 
@@ -168,6 +168,7 @@ p {
 }
 
  .daily {
+    border-radius: 3px; 
     margin: 0 auto;
     height:200px;
     width: 200px;
@@ -186,11 +187,16 @@ p {
 
 .caja {
     background: #f7b617;
+    border-radius: 3px;
     display: inline-table;
     height: 300px;
     padding: 10px;
     margin: 5px;
     width: 300px;
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(63,66,55,1);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(63,66,55,1);
+   box-shadow: 10px 10px 5px 0px rgba(63,66,55,1);
+
 }
 
 /* LOG IN*/
