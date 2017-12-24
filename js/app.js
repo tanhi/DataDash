@@ -4,7 +4,7 @@ El total de elementos del arreglo “estudiantes” (.length) = El total de estu
 3 Generaciones: 2016-2, 2017-1 y 2017-2
 Total de estudiantes generación 2016-2 = 15*/
 
-console.log(data);
+
 
 /*2.	El total de estudiantes presentes por sede y generación.
 Active: false Llamar todos los false y ponerlos en un arreglo para sacar su longitud por .length
@@ -66,3 +66,4 @@ Google chart
 /*2.	Tener un botón que permita indicar que una estudiante ha salido del Bootcamp y alterar los totales afectados por este cambio.**
 Active: false
 */
+
