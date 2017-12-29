@@ -7,13 +7,15 @@
 
 body {
   background-image: url(../assets/images/06-01.jpg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;     
  }
 
 /*Header*/
 header {
   background-color: #fff;
   text-align: center;
+  width: 100%;
+  position: fixed;
 }
 
 strong {
@@ -69,10 +71,6 @@ strong {
 
 /*Barra de opciones*/
 
-select {
-    margin-top: 7px;
-}
-
 button{
 
 display:inline-flex;
@@ -85,6 +83,7 @@ border-radius: 3px;
 font-weight: 300;
 font-size: 1.2em;
 padding: .0.25em;
+margin: 5px;    
 }
 
 button:hover {
@@ -99,6 +98,12 @@ button:focus{
  outline: none;
 }
 
+
+.tab {
+    
+    display: inline-block;
+    padding-top: 50px;
+}
 
 .desplegables {
   background-color:#ffff;
@@ -117,6 +122,7 @@ border-radius: 3px;
 font-weight: 300;
 font-size: 1.2em;
 padding: .0.25em;
+margin-left: 22px;    
 }
 
 .filtro:hover {
@@ -139,12 +145,14 @@ padding: .0.25em;
   outline: none;
 }
 
+
 /*Barra lateral*/
 
 h5 {
     display: inline-block;
     text-align: center;
     margin: 0 auto;
+    margin-top: 60px;
     padding: 15px;
     font-size: 1.07em; 
 }
@@ -159,8 +167,8 @@ p {
 
 #lateral {
     float:right;
-    height: 1107px;
-    width: 279px;
+    height: 1500px;
+    width: 20%;
     background-color:#4C4743;
     color:#fff;
     
@@ -178,8 +186,16 @@ p {
 
 /* Dando estilo a las secciones*/
 
+h3 {
+    margin: 10px;
+}
 
-.secciones {
+section {
+    
+}
+
+
+#data-dashboard {
     display: inline-table;
     padding-right: 100px;
     margin:20px;
@@ -191,8 +207,12 @@ p {
     display: inline-table;
     height: 300px;
     padding: 10px;
-    margin: 5px;
+    margin: 20px;
     width: 300px;
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
    -webkit-box-shadow: 10px 10px 5px 0px rgba(63,66,55,1);
    -moz-box-shadow: 10px 10px 5px 0px rgba(63,66,55,1);
    box-shadow: 10px 10px 5px 0px rgba(63,66,55,1) transparent;

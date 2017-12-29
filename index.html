@@ -48,9 +48,12 @@
         <option value="SCL" data-year="2017-2">SCL 2017 - II</option>
         </optgroup>
         </select>
-        <button>General</button>
-        <button>Alumnas</button>
-        <button>Profesores</button>
+        <!-- Tab links -->
+        <div id="data-dashboard" class="tab">
+          <button class="tablinks" onclick="openGral(event, 'General')">General</button>
+          <button class="tablinks" onclick="openAlum(event, 'Alumnas')">Alumnas</button>
+          <button class="tablinks" onclick="openProf(event, 'Profesores')">Profesores</button>
+        </div>
      <section id="lateral">
          <h5>¡Felicidades!¡Lo estamos haciendo bien!</h5>  
          <div class="daily"><img src="./assets/images/012-quality.svg"></div>
@@ -62,53 +65,43 @@
          <div class="daily"><img src="./assets/images/011-startup.svg"></div>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic suscipit officiis dolore neque quaerat quia possimus eum commodi sit temporibus at, rem blanditiis mollitia earum corrupti omnis nihil beatae sequi!</p>
      </section>    
-     <section class="secciones">
-         <h4 class="titulo-seccion"> Mis estadísticas</h4>
-          <div class="caja">DATO ALUMNAS DE MI SEDE
-              <div id="chart_div"></div>
+     <section id="mis-estadisticas" class="tab-content">
+         <h3 class="titulo-seccion"> Mis estadísticas</h3>
+          <div class="caja" id="total-mi-sede">DATO ALUMNAS DE MI SEDE
+              <div class="chart_div"></div>
           </div>     
           <div class="caja">TOTAL DE ALUMNAS INSCRITAS Y % DESERCION
-            <div id="chart_div"></div>
+            <div class="chart_div"></div>
           </div> 
           <div class="caja">NPS
-            <div id="chart_div"></div>
+            <div class="chart_div"></div>
           </div> 
       </section>
-      <section class="secciones">
-         <h4 class="titulo-seccion"> Mi Sede</h4>
+      <section id="mi-sede" class="tab-content">
+         <h3 class="titulo-seccion"> Mi Sede</h3>
           <div class="caja">TOTAL DE ALUMNAS EN MI SEDE
-            <div id="chart_div"></div>
+            <div class="chart_div"></div>
           </div> 
           <div class="caja">NIVEL DE SATISFACCIÓN
-            <div id="chart_div"></div>
+            <div class="chart_div"></div>
           </div> 
           <div class="caja">NPS
-            <div id="chart_div"></div>
+            <div class="chart_div"></div>
           </div> 
       </section>
-      <section class="secciones">
-         <h4 class="titulo-seccion"> General </h4>
+      <section id="general" class="tab-content">
+         <h3 class="titulo-seccion"> General </h3>
           <div class="caja">TOTAL DE ALUMNAS
-            <div id="chart_div"></div>
+            <div class="chart_div"></div>
           </div> 
           <div class="caja">NIVEL DE SATISFACCIÓN
-            <div id="chart_div"></div>
+            <div class="chart_div"></div>
           </div> 
           <div class="caja">% DE ALUMNAS QUE ALCANZAN LA META
-            <div id="chart_div"></div>
+            <div class="chart_div"></div>
           </div> 
       </section>
    </main> 
-    
-	<!--Inicio de Menu que aparece y desaparece
-      <section class="menu" id="animated-menu">
-        <a href="javascript:void(0)" class="closebtn" id="close-animated-menu">&times;</a> 
-          <div class="setting"><a href="#">Add Student</a></div>
-          <div class="setting"><a href="#">Remove Student</a></div>
-          <div class="setting"><a href="#">Add Sprint</a></div>
-          <div class="setting"><a href="#">Salir</a></div>
-      </section>
-      <!--Fin de Menu que aparece y desaparece-->	<!-- Base de datos -->
 		<script src="./js/data.js"></script>
 		<!-- Aquí va tus archivos JS -->
     <script src="./js/app.js"></script>
